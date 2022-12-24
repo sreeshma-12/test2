@@ -1,0 +1,91 @@
+ /* .header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+    background:#fff;
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+}
+.header .logo i{
+    color:var(--orange);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:var(--black)
+} */ 
+/* 
+.main{
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}  */ 
+.main{
+   
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.test.card{
+    width: 28rem;
+}
+
+.zomato_img{
+    width: 30rem;
+}
+.slider{
+    margin-top: -15rem;
+    WIDTH: 9REM;
+    BACKGROUND-COLOR: #dfdf00;
+}
+.searchb{
+    width: 5rem;
+}
+ 
+
+
+
+@media screen and (max-width: 480px) {
+    .test .card {
+      width: 22rem;
+      height: 10rem;
+    }
+    .zomato_img{
+        width: 15rem;
+        margin-right: 11rem;
+    }
+    .input{
+        width: 50%;
+     
+    }
+  }
+
+
+ 
